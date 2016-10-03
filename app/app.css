@@ -1,3 +1,22 @@
+footer.footer {
+	padding: 10px 0;
+	background: #f8f8f8;
+	border: 1px solid #e7e7e7;
+}
+
+nav.navbar {
+	background: #f8f8f8;
+	border: 1px solid #e7e7e7;
+}
+
+main {
+	padding-top: 60px;
+}
+
+#navLogo {
+	height: 1.0em;
+}
+
 /***
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
@@ -20,10 +39,4 @@ body {
 
 .sfooter-content {
 	flex: 1 0 auto;
-}
-
-footer.footer {
-	padding: 10px 0;
-	background: #f8f8f8;
-	border-top: 1px solid #e7e7e7;
 }
