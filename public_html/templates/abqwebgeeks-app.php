@@ -17,6 +17,7 @@
 							<li><a routerLink="/"><i class="fa fa-home fa-lg"></i></a></li>
 							<li><a routerLink="/introduction">Introduction</a></li>
 							<li><a routerLink="/new-in-two">New in 2</a></li>
+							<li><a routerLink="/one-vs-two">1 vs 2</a></li>
 							<li><a routerLink="/wat">WAT</a></li>
 						</ul>
 					</div>
