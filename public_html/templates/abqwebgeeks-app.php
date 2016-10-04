@@ -15,9 +15,9 @@
 					<div class="navbar-collapse" [ngClass]="{collapse: navCollapse}">
 						<ul class="nav navbar-nav navbar-right" (click)="toggleCollapse();">
 							<li><a routerLink="/"><i class="fa fa-home fa-lg"></i></a></li>
-							<li><a routerLink="/routing">Routing</a></li>
-							<li><a routerLink="/navbars">Nav Bars</a></li>
-							<li><a routerLink="/api-changes">API Changes</a></li>
+							<li><a routerLink="/introduction">Introduction</a></li>
+							<li><a routerLink="/new-in-two">New in 2</a></li>
+							<li><a routerLink="/wat">WAT</a></li>
 						</ul>
 					</div>
 				</div>
