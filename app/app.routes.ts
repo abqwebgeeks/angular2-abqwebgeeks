@@ -6,7 +6,7 @@ import {WatComponent} from "./components/wat-component";
 import {SplashComponent} from "./components/splash-component";
 
 
-export const allAppComponents = [SplashComponent];
+export const allAppComponents = [IntroductionComponent, NewInTwoComponent, OneVsTwoComponent, WatComponent, SplashComponent];
 
 export const routes: Routes = [
 	{path: "introduction", component: IntroductionComponent},
