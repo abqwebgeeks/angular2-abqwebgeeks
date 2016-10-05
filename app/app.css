@@ -13,6 +13,10 @@ main {
 	padding-top: 60px;
 }
 
+#angularLogo {
+	height: 1.0em;
+}
+
 #navLogo {
 	height: 1.5em;
 }
