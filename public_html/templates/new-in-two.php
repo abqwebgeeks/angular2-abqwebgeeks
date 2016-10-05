@@ -3,8 +3,8 @@
 <h2>TypeScript</h2>
 <p>While TypeScript itself is not a feature of ...</p>
 <div class="row">
-	<div class="col-md-6" [innerHTML]="fooJs">
+	<div class="col-md-6" [innerHTML]="todoJs">
 	</div>
-	<div class="col-md-6" [innerHTML]="fooTs">
+	<div class="col-md-6" [innerHTML]="todoTs">
 	</div>
 </div>

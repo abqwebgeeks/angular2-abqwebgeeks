@@ -6,23 +6,23 @@ import {HighlightService} from "../services/highlight-service";
 })
 
 export class NewInTwoComponent implements OnInit {
-	fooJs : string = "";
-	fooTs : string = "";
+	todoJs : string = "";
+	todoTs : string = "";
 
 	constructor(private highlightService: HighlightService) {}
 
 	ngOnInit() : void {
-		this.getFooJs();
-		this.getFooTs();
+		this.getTodoJs();
+		this.getTodoTs();
 	}
 
-	getFooJs() : void {
-		this.highlightService.getHighlight("foo.js")
-			.subscribe(fooJs => this.fooJs = fooJs);
+	getTodoJs() : void {
+		this.highlightService.getHighlight("todo.js")
+			.subscribe(todoJs => this.todoJs = todoJs);
 	}
 
-	getFooTs() : void {
-		this.highlightService.getHighlight("foo.ts")
-			.subscribe(fooTs => this.fooTs = fooTs);
+	getTodoTs() : void {
+		this.highlightService.getHighlight("todo.ts")
+			.subscribe(todoTs => this.todoTs = todoTs);
 	}
 }
