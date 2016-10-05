@@ -46,79 +46,92 @@ body {
 }
 
 /**
- * Solarized Light from https://github.com/scrivo/highlight.php/blob/master/styles/solarized-light.css
- * Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
+ * Idea from https://github.com/scrivo/highlight.php/blob/master/styles/idea.css
+ * Intellij Idea-like styling (c) Vasily Polovnyov <vast@whiteants.net>
  **/
+
 
 .hljs {
 	display: block;
 	overflow-x: auto;
 	padding: 0.5em;
-	background: #fdf6e3;
-	color: #657b83;
+	color: #000;
+}
+
+.hljs-subst,
+.hljs-title {
+	font-weight: normal;
+	color: #000;
 }
 
 .hljs-comment,
 .hljs-quote {
-	color: #93a1a1;
+	color: #808080;
+	font-style: italic;
 }
 
-/* Solarized Green */
-.hljs-keyword,
-.hljs-selector-tag,
-.hljs-addition {
-	color: #859900;
+.hljs-meta {
+	color: #808000;
 }
 
-/* Solarized Cyan */
-.hljs-number,
-.hljs-string,
-.hljs-meta .hljs-meta-string,
-.hljs-literal,
-.hljs-doctag,
-.hljs-regexp {
-	color: #2aa198;
+.hljs-tag {
+	background: #efefef;
 }
 
-/* Solarized Blue */
-.hljs-title,
 .hljs-section,
 .hljs-name,
+.hljs-literal,
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-type,
 .hljs-selector-id,
 .hljs-selector-class {
-	color: #268bd2;
+	font-weight: bold;
+	color: #000080;
 }
 
-/* Solarized Yellow */
 .hljs-attribute,
-.hljs-attr,
-.hljs-variable,
-.hljs-template-variable,
-.hljs-class .hljs-title,
-.hljs-type {
-	color: #b58900;
+.hljs-number,
+.hljs-regexp,
+.hljs-link {
+	font-weight: bold;
+	color: #0000ff;
 }
 
-/* Solarized Orange */
+.hljs-number,
+.hljs-regexp,
+.hljs-link {
+	font-weight: normal;
+}
+
+.hljs-string {
+	color: #008000;
+	font-weight: bold;
+}
+
 .hljs-symbol,
 .hljs-bullet,
-.hljs-subst,
-.hljs-meta,
-.hljs-meta .hljs-keyword,
-.hljs-selector-attr,
-.hljs-selector-pseudo,
-.hljs-link {
-	color: #cb4b16;
-}
-
-/* Solarized Red */
-.hljs-built_in,
-.hljs-deletion {
-	color: #dc322f;
-}
-
 .hljs-formula {
-	background: #eee8d5;
+	color: #000;
+	background: #d0eded;
+	font-style: italic;
+}
+
+.hljs-doctag {
+	text-decoration: underline;
+}
+
+.hljs-variable,
+.hljs-template-variable {
+	color: #660e7a;
+}
+
+.hljs-addition {
+	background: #baeeba;
+}
+
+.hljs-deletion {
+	background: #ffc8bd;
 }
 
 .hljs-emphasis {
