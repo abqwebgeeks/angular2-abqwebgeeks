@@ -1,6 +1,5 @@
 <?php
 // start session and enable XSRF protection
-require_once(dirname(__DIR__) . "/php/lib/highlight.php");
 require_once(dirname(__DIR__) . "/php/lib/xsrf.php");
 if(session_status() !== PHP_SESSION_ACTIVE) {
 	session_start();
