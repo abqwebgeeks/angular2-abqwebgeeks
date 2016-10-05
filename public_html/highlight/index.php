@@ -23,7 +23,7 @@ try {
 	if(preg_match("/^[a-z\-]+\.[jt]s$/", $filename) !== 1) {
 		throw(new RuntimeException("file not found", 404));
 	}
-	$filename = dirname(__DIR__, 2) . "/code-samples/$filename";
+	$filename = dirname(__DIR__, 2) . "/app/code-samples/$filename";
 	if(file_exists($filename) === false) {
 		throw(new RuntimeException("file not found", 404));
 	}
